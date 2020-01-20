@@ -1,0 +1,18 @@
+bucket4j:
+  enabled: true
+  filters:
+    - cache-name: buckets
+      url: /*
+      rate-limits:
+        - bandwidths:
+            - capacity: 10
+              time: 30
+              unit: seconds
+tor:
+  exit:
+    addresses:
+      source:
+        url: https://check.torproject.org/exit-addresses
+server:
+  servlet:
+    context-path: /tor-app
