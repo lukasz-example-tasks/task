@@ -18,7 +18,7 @@
         <cglib-version>3.2.4</cglib-version>
         <swagger-version>2.9.2</swagger-version>
         <spock-core-version>1.3-groovy-2.4</spock-core-version>
-        <groovy-all-version>2.4.7</groovy-all-version>
+        <groovy-all-version>2.4.21</groovy-all-version>
         <gmavenplus-plugin-version>1.5</gmavenplus-plugin-version>
         <bucket4j-starter-version>0.1.15</bucket4j-starter-version>
         <java.version>11</java.version>
